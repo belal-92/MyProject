@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <title>مشروع الفورم </title>
+</head>
+<body>
+    <h1> Test Form </h1>
+    <p> Project 1 </p>
+    <form action="" method="post">
+        <div>
+        <label>UserName</label>
+        <input type="text" required placeholder="UserName" name="username">
+          </div>
+          <br>
+          <div>
+            <label>Password</label>
+            <input type="Password" required placeholder="Password" name="pass" minlength="8" maxlength="20">
+              </div>
+              <br>
+              <div>
+                    <label>Email</label>
+                    <input type="Email" required placeholder="Email" name="mail">
+                      </div>
+                      <br>
+                      <div>
+                      <label>color</label>
+                      <input type="color"  name="color">
+                        </div>
+                        <br>
+                        <div>
+                            <label>Range</label>
+                            <input type="range"  name="range" min="0" max="100" step="10" value="0">
+                              </div>
+                              <br>
+                              <div>
+                                <label>Number</label>
+                                <input type="number"  name="number" min="0" max="100" step="10" value="0">
+                                  </div>
+                                  <br>
+                                  <hr>
+                                  <div>
+                                    <input id="win" type="radio" name="os" value="windows" >
+                                    <label for="win">Windows</label>
+                                  </div>
+                                  <div>
+                                    <input id="mac" type="radio" name="os" value="Mac" checked>
+                                    <label for="mac">Mac</label>
+                                  </div>
+                                  <div>
+                                    <input id="lin" type="radio" name="os" value="links" >
+                                    <label for="lin">Links</label>
+                                  </div>
+                                  <hr>
+                                  <div>
+                                    <input id="win1" type="checkbox" name="os" value="windows" checked>
+                                    <label for="win1">Windows</label>
+                                  </div>
+                                  <div>
+                                    <input id="mac1" type="checkbox" name="os" value="Mac" >
+                                    <label for="mac1">Mac</label>
+                                  </div>
+                                  <div>
+                                    <input id="lin1" type="checkbox" name="os" value="links" >
+                                    <label for="lin1">Links</label>
+                                  </div>
+                                  <hr>
+                                  <div>
+                                    <label for="book"> Books: </label>
+                                    <select name="book" id="book">
+                                        <optgroup label="num1">
+                                            <option value="1">Arabic</option>
+                                            <option value="1">English</option>
+                                            <option value="1">islamic</option>
+
+                                        </optgroup>
+                                        <optgroup label="num1">
+                                            <option value="1">joc</option>
+                                            <option value="1">tar</option>
+                                            <option value="1">thaq</option>
+
+                                        </optgroup>
+                                    
+
+                                    </select>
+                                </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div>
+                                      <p> Message </p>
+                                    <textarea name="Message" cols="20"  rows="20"  placeholder="text text"></textarea>
+
+                                </div>
+                <div>
+                <input type="submit" value="حفظ">
+                <input type="reset" value="اعادة">
+                  </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
